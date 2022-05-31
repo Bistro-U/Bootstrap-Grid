@@ -44,3 +44,32 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item {
+    height: 900px;
+}
+
+.carousel-item img {
+    min-height: 100%;
+    margin: auto;
+}
+
+.modal-backdrop {
+    z-index: 10;
+}
+
+.modal-header {
+    background: #6439ca;
+}
+
+.modal-body {
+    background: #d7bfff;
+}
+
+.modal-title {
+    color: white;
+}
