@@ -73,3 +73,50 @@ body {
 .modal-title {
     color: white;
 }
+
+.card-header {
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.reverseContent {
+    width: 50%;
+    margin: auto;
+}
+
+.reverseCard {
+    padding: 1px 8px;
+    color: #0f0f0f;
+}
+
+.reverseHeader {
+    padding: 8px 0px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+.bg-warning {
+    margin: 10px;
+}
+
+.reverseModalBody {
+    background-color: rgb(255, 255, 255);
+}
+
+.form-check-label {
+    color: #0f0f0f;
+}
+
+.date {
+    margin-right: 15px;
+    margin-left: 31px;
+}
+
+.check {
+    margin-left: 1px;
+}
+
+#carouselButton {
+    margin: auto;
+    z-index: 1;
+}
