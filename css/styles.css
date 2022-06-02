@@ -62,34 +62,21 @@ body {
     z-index: 10;
 }
 
-.modal-header {
-    background: #6439ca;
-}
-
-.modal-body {
-    background: #d7bfff;
-}
-
-.modal-title {
-    color: white;
-}
-
 .card-header {
     padding: 5px 10px;
-    margin-left: 5px;
 }
 
-.reverseContent {
-    width: 50%;
+.reserveContent {
+    width: 65%;
     margin: auto;
 }
 
-.reverseCard {
+.reserveCard {
     padding: 1px 8px;
     color: #0f0f0f;
 }
 
-.reverseHeader {
+.reserveHeader {
     padding: 8px 0px;
     background-color: rgb(255, 255, 255);
     margin-right: 10px;
@@ -99,7 +86,7 @@ body {
     margin: 10px;
 }
 
-.reverseModalBody {
+.reserveModalBody {
     background-color: rgb(255, 255, 255);
 }
 
@@ -109,7 +96,7 @@ body {
 
 .date {
     margin-right: 15px;
-    margin-left: 31px;
+    margin-left: 16px;
 }
 
 .check {
@@ -119,4 +106,45 @@ body {
 #carouselButton {
     margin: auto;
     z-index: 1;
+}
+
+.btn-check {
+    display: none;
+}
+
+.inactive {
+    color: floralwhite;
+    font-weight: bold;
+    border-width: 0px;
+    border-color: azure;
+}
+
+.modal-header {
+    background: #512DA8;
+}
+
+.modal-header .modal-title {
+    color: floralwhite;
+}
+
+.modal-header .close {
+    color: floralwhite;
+}
+
+.modal-body {
+    background: #D1C4E9;
+}
+
+.btn-nonsmoking {
+    color: floralwhite;
+    font-weight: bold;
+    background-color: #28a745;
+    border-color: #0a521a;
+}
+
+.btn-smoking {
+    color: floralwhite;
+    font-weight: bold;
+    background-color: #dc3545;
+    border-color: #530101;
 }
